@@ -9,7 +9,7 @@ global finalPassword
 finalPassword=None
 
 def checkPass(password,lock):
-    process = Popen(['su','juan'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
+    process = Popen(['su','root'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
     stdout_data = process.communicate(input=password.encode())
     stateCode = process.returncode
 
