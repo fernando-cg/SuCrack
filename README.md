@@ -8,10 +8,12 @@ The tool only **works with 20 threads (for now)** im developing a system to opti
 
 Im **working to improve** the tool and that can allow forze others users
 
->syntax
->>python3 sucracker.py wordlist.txt
->>python3 sucracker.py wordlist.txt user
->>python3 sucracker.py wordlist.txt user NumberThreads
+## syntax
+>python3 sucracker.py wordlist.txt
 
-##Example
+>python3 sucracker.py wordlist.txt user
+
+>python3 sucracker.py wordlist.txt user NumberThreads
+
+## Example
 >python3 /usr/share/wordlists/words.txt roblox 200
